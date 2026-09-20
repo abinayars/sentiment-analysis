@@ -4,7 +4,9 @@
 
 This project is a machine learning-based sentiment analysis system that classifies text into **Positive** and **Negative** sentiment.
 
-The project uses the **Sentiment140 Twitter dataset** for training and evaluation. Text data is cleaned and transformed into numerical features using **TF-IDF**, followed by classification using Logistic Regression and Multinomial Naive Bayes.
+The project uses the **Sentiment140 Twitter dataset** for training and evaluation. Text data is cleaned and transformed into numerical features using **TF-IDF**, followed by classification using **Logistic Regression** and **Multinomial Naive Bayes**.
+
+The trained model is also evaluated on **IMDb movie reviews** to measure cross-domain performance.
 
 ## Features
 
@@ -31,30 +33,32 @@ The project uses the **Sentiment140 Twitter dataset** for training and evaluatio
 - Jupyter Notebook
 - Joblib
 
-## Dataset
+## Datasets
 
-The primary dataset used is the **Sentiment140 Twitter dataset**.
+### Sentiment140
+
+The primary dataset used for model development is the **Sentiment140 Twitter dataset**.
 
 - Training samples: 158,434
 - Testing samples: 39,609
 
-An IMDb dataset containing **10,000 movie reviews** was additionally used to evaluate cross-domain performance.
+### IMDb
+
+An IMDb movie review dataset containing **10,000 reviews** was additionally used for cross-domain evaluation.
 
 ## Machine Learning Models
 
 Two classification algorithms were implemented and compared:
 
-1. Logistic Regression
-2. Multinomial Naive Bayes
+1. **Logistic Regression**
+2. **Multinomial Naive Bayes**
 
-### Model Performance
+## Model Performance
 
 | Model | Accuracy |
 |---|---:|
 | Logistic Regression | 76.53% |
 | Multinomial Naive Bayes | 75.80% |
-
-Logistic Regression achieved the higher accuracy on the Twitter test dataset.
 
 ## Cross-Domain Evaluation
 
@@ -62,7 +66,7 @@ The trained Logistic Regression model was additionally evaluated on IMDb movie r
 
 **IMDb Accuracy: 70.84%**
 
-This evaluation demonstrates how the model performs when applied to text from a different domain.
+This evaluation measures how the trained model performs when applied to text from a different domain.
 
 ## Evaluation Metrics
 
