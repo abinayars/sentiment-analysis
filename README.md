@@ -103,7 +103,7 @@ sentiment-analysis/
 An interactive Tableau dashboard was developed to visualize sentiment predictions and evaluate model performance on a sample of 200 IMDb movie reviews.
 
 **Dashboard Preview:**  
-[View IMDb Sentiment Analysis Dashboard on Tableau Public](https://public.tableau.com/app/profile/abinaya.rs/viz/IMDb_Sentiment_Analysis_Dashboard/Dashboard1?publish=yes)
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/abinaya.rs/viz/IMDb_Sentiment_Analysis_Dashboard/Dashboard1?publish=yes)
 
 ### Dashboard Insights
 - Visualized the distribution of predicted positive and negative sentiments.
