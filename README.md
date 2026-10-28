@@ -100,11 +100,16 @@ sentiment-analysis/
 
 ## Tableau Dashboard
 
-The interactive Tableau dashboard visualizes predicted sentiment distribution, actual sentiment distribution, and model prediction results for 200 IMDb movie reviews.
+An interactive Tableau dashboard was developed to visualize sentiment predictions and evaluate model performance on a sample of 200 IMDb movie reviews.
 
 **Dashboard Preview:**  
-[View the IMDb Sentiment Analysis Dashboard](https://public.tableau.com/app/profile/abinaya.rs/viz/IMDb_Sentiment_Analysis_Dashboard/Dashboard1?publish=yes)
+[View IMDb Sentiment Analysis Dashboard on Tableau Public](https://public.tableau.com/app/profile/abinaya.rs/viz/IMDb_Sentiment_Analysis_Dashboard/Dashboard1?publish=yes)
+
+### Dashboard Insights
+- Visualized the distribution of predicted positive and negative sentiments.
+- Compared actual sentiment labels with model predictions.
+- Evaluated prediction results, achieving **73.5% accuracy** on the 200-review IMDb sample.
 
 ## Conclusion
 
-This project demonstrates sentiment classification using TF-IDF, Logistic Regression, and Multinomial Naive Bayes. The IMDb sample evaluation helps assess how the trained model performs on movie reviews from a different dataset.
+This project demonstrates sentiment classification using TF-IDF feature extraction, Logistic Regression, and Multinomial Naive Bayes. The IMDb sample evaluation provides insights into how the trained sentiment analysis model performs on movie reviews from a different dataset.
