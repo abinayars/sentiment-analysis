@@ -96,3 +96,15 @@ sentiment-analysis/
 ├── sentiment_model.pkl
 ├── tfidf_vectorizer.pkl
 └── README.md
+
+
+## Tableau Dashboard
+
+The interactive Tableau dashboard visualizes predicted sentiment distribution, actual sentiment distribution, and model prediction results for 200 IMDb movie reviews.
+
+**Dashboard Preview:**  
+[View the IMDb Sentiment Analysis Dashboard on Tableau Public](https://public.tableau.com/app/profile/abinaya.rs/viz/IMDb_Sentiment_Analysis_Dashboard/Dashboard1?publish=yes)
+
+## Conclusion
+
+This project demonstrates sentiment classification using TF-IDF, Logistic Regression, and Multinomial Naive Bayes. The IMDb sample evaluation helps assess how the trained model performs on movie reviews from a different dataset.
